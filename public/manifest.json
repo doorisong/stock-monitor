@@ -2,6 +2,7 @@
   "manifest_version": 2,
   "description": "This is stock monitor app",
   "version": "0.0.1",
+  "homepage_url": "https://github.com/Jongkeun/stock-monitor",
   "short_name": "stock-monitor",
   "name": "stock-monitor",
   "icons": {
