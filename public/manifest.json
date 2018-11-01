@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "description": "This is stock monitor app",
+  "version": "0.0.1",
+  "short_name": "stock-monitor",
+  "name": "stock-monitor",
+  "icons": {
+    "16": "logo-small.png",
+    "48": "logo-small.png",
+    "128": "logo-small.png"
+  },
+  "start_url": ".",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "stock"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "webRequest",
+    "contextMenus",
+    "downloads",
+    "webNavigation",
+    "notifications",
+    "storage",
+    "debugger",
+    "<all_urls>"
+  ],
+  "content_security_policy": "script-src 'self' object-src 'self'"
+}
